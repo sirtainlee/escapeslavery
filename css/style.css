@@ -1,1 +1,30 @@
 /*--comment---*/
+body, html{
+     margin: 25px;
+    background-color:#f3b965; 
+    position: relative;
+ }
+ 
+ /*-- "Slavery!" should be aligned to the right --*/
+h1{justify: left}
+
+
+/*-- Language links should be aligned to the right --*/
+nav{alignment: right}
+
+    
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+}
