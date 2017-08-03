@@ -1,25 +1,36 @@
-/*--comment---*/
+/*--These first 4 containers are to provide different background colors for each of the different language pages.---*/
 
 
-body {
-    
-    background-color:#f3b965; 
-    }
+#English-container {
+    background-color:#f3b965;
+}
+
+#Spanish-container {
+    background-color:#da6b46;
+}
+
+#Russian-container {
+    background-color:#83F58E;
+}
+
+#Mandarin-container{
+    background-color:#659ff3;
+}
  
  #wrapper {
      width:56%;
      margin:0 auto;
  }
  
- /*-- "Slavery!" should be aligned to the right --*/
+ /*-- "Slavery" should be aligned to the left --*/
 h1{    
 font-family: 'Hind', sans-serif;
 }
 
-header h2{
+/*-- want the powerful comments moved to the center of the pictures --*/
+h2{
+    padding-left:10px;padding-bottom: 15px;
     text-align:center;
-}
-h2{padding-left:10px;padding-bottom: 15px;
 }
 
 p{padding-left:25px;
@@ -33,7 +44,6 @@ nav ul{
 nav ul li {
     display: inline-block;
     margin-right: 50px;
-    
 }
 
 nav a {
@@ -41,5 +51,6 @@ nav a {
 }
 
 footer {padding-top:20px;
-text-align:center;
+        padding-bottom:60px;
+        text-align:center;
 }
