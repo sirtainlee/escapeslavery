@@ -1,6 +1,6 @@
-/*--These first 4 containers are to provide different background colors for each of the different language pages.---*/
+/*--These first 4 containers are to provide different color backgrounds for each of the different language pages.---*/
 
-
+/*-- I will send these 4 colors to Cira Foster as my palette--*/
 #English-container {
     background-color:#f3b965;
 }
@@ -17,12 +17,12 @@
     background-color:#659ff3;
 }
  
- #wrapper {
+#wrapper {
      width:56%;
      margin:0 auto;
  }
  
- /*-- "Slavery" should be aligned to the left --*/
+ /*-- "Slavery" will be aligned to the left by default --*/
 h1{    
 font-family: 'Hind', sans-serif;
 }
@@ -50,6 +50,7 @@ nav a {
     text-decoration: none;
 }
 
+/*-- the email or phone number forms are very important. Need to give them some space. --*/
 footer {padding-top:20px;
         padding-bottom:60px;
         text-align:center;
